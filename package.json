@@ -1,0 +1,13 @@
+{
+  "name": "przytullas",
+  "version": "1.0.0",
+  "description": "Static site for Przytullas",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "generate-thumbnails": "node scripts/generate-thumbnails.js",
+    "generate-new-thumbnails": "node scripts/generate-thumbnails.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.32.0"
+  }
+}
