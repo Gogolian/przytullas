@@ -98,8 +98,25 @@ h3 {
     list-style: none;
     padding: 1rem;
     background: white;
+}
+
+.calendar {
+    margin: 2rem 0;
+}
+
+.calendar-wrapper {
+    position: relative;
+    width: 100%;
+    background: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .calendar-wrapper iframe {
+        height: 400px;
+    }
 }
 
 .price-list li {
