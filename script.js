@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
         overlay.style.width = '100%';
         overlay.style.height = '100%';
         overlay.style.background = 'rgba(0,0,0,0.8)';
-        overlay.style.display = 'flex';
+        overlay.style.display = 'none';
         overlay.style.alignItems = 'center';
         overlay.style.justifyContent = 'center';
         overlay.style.zIndex = 10000;
