@@ -113,11 +113,6 @@ h3 {
     overflow: hidden;
 }
 
-/* Calendar event cell height */
-.KF4T6b.jKgTF.QGRmIf {
-    height: 10vh !important;
-}
-
 @media (max-width: 768px) {
     .calendar-wrapper iframe {
         height: 400px;
